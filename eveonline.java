@@ -10,7 +10,7 @@ public class eveonline {
 			
 			String word = "";
 			System.out.println("ingresa una palabra " );
-			word = keyboard.next();
+			word = keyboard.nextLine();
 		 	  
 	        String subcadena = word.substring(3, 5);
 	        System.out.println("La cuarta y quinta letra son: " + subcadena);

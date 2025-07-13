@@ -8,7 +8,7 @@ public class holiu {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("ingresa una palabra " );
-		word = keyboard.next();
+		word = keyboard.nextLine();
 		int length = word.length();
 		 System.out.println("the length of this words is : " + length);
 		
