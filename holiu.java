@@ -7,7 +7,7 @@ public class holiu {
 		String  word = "";
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println("ingresa una palabra " );
+		System.out.println("enter a word " );
 		word = keyboard.nextLine();
 		int length = word.length();
 		 System.out.println("the length of this words is : " + length);

@@ -9,15 +9,15 @@ public class eveonline {
 		try {
 			
 			String word = "";
-			System.out.println("ingresa una palabra " );
+			System.out.println("enter a word " );
 			word = keyboard.nextLine();
 		 	  
 	        String subcadena = word.substring(3, 5);
-	        System.out.println("La cuarta y quinta letra son: " + subcadena);
+	        System.out.println("The fourth and fifth letters are: " + subcadena);
 		}
 		catch (Exception e)
 		{
-			System.out.println("the words is most ");
+			System.out.println("the word is very small");
 		}
 		}
 		
